@@ -5,5 +5,5 @@ struct node {
 };
 
 link init();
-link insert();
-int remove();
+link insert(link list, int i);
+int removeMin(link list);
